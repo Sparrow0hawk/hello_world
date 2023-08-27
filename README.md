@@ -4,14 +4,16 @@ Messing around with Java.
 
 ## Build and Run
 
-To compile to `Hello.class`:
+This project uses [ant](https://ant.apache.org) to build and run.
+
+To compile to .jar:
 
 ```bash
-javac Hello.java
+ant jar
 ```
 
 To run:
 
 ```bash
-java Hello
+ant run
 ```
